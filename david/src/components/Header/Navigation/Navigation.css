@@ -1,0 +1,18 @@
+.menu ul {
+    display: flex;
+    gap: 60px;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.menu ul li a {
+    color: #000;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 143%; /* 22.88px */
+    text-decoration: none;
+    animation: fadeIn 2s ease-in-out forwards;
+
+}

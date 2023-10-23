@@ -1,0 +1,77 @@
+.hero__images {
+    margin: 0 auto;
+    position: relative;
+}
+
+.ellipses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.ellipse {
+    width: 550px;
+    height: 500px;
+    border-radius: 100%;
+    border: 1px solid #143346;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ellipse__child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 420px;
+    height: 400px;
+    border-radius: 100%;
+    border: 1px solid #143346;
+}
+
+.images {
+    display: flex;
+    left: -165px;
+    position: absolute;
+    justify-content: space-between;
+}
+
+.image1 {
+    position: relative;
+    top: -75px;
+    transform: translateY(-50%);
+    opacity: 0;
+    z-index: 2;
+    animation: slideIn 1s ease forwards;
+}
+
+.image2 {
+    position: relative;
+    top: 20px;
+    transform: translateY(50%);
+    opacity: 0;
+    animation: slideOut 1s ease forwards;
+}
+
+@keyframes slideIn {
+    from {
+      transform: translateY(-50%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+@keyframes slideOut {
+    from {
+      transform: translateY(50%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }

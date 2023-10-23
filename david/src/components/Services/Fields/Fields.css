@@ -1,0 +1,33 @@
+.services__fields {
+    display: flex;
+}
+
+.services__btns {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.services__workflow {
+    margin-left: 30px;
+}
+
+.workflow__title {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 143%; /* 34.32px */
+    margin-bottom: 10px;
+
+}
+
+.stage__done {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background: #F0F4F6;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

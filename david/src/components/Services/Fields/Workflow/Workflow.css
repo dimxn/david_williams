@@ -1,0 +1,51 @@
+.stage {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.stage__info {
+    border-radius: 5px;
+    padding-left: 5px;
+    background: #F0F4F6;    
+    width: 736px;
+}
+
+.stage__title {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 143%; /* 22.88px */
+}
+
+.stage__desc {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 128%; /* 20.48px */
+}
+
+.stage__number {
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    border: 1px solid #000;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 143%; /* 34.32px */
+    width: 48px;
+    height: 48px;
+    margin-right: 5px;
+    position: relative;
+}
+
+.stage__number::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 41px;
+    background-color: #000;
+    top: 100%;
+}
