@@ -1,4 +1,5 @@
 import React from 'react';
+import "../../media.css"
 import "../Contacts/Contacts.css";
 import { Information } from './Information/Information';
 import { Bio } from './Bio/Bio';
@@ -9,6 +10,12 @@ export const Contacts = () => {
   return (
     <section id='contacts' className="contacts">
         <div className="container">
+          <div className="contacts__wrapper1">
+            <AnimationOnScroll animateIn='animate__bounceInLeft' delay={1} animateOnce={true}>
+              <h2 className="information__title">
+                  Let`s make it
+              </h2>
+            </AnimationOnScroll>
             <div className="contacts__wrapper">
                 <Information/>
                 <Bio/>
@@ -18,6 +25,7 @@ export const Contacts = () => {
                   </div>
                 </AnimationOnScroll>
             </div>
+          </div>
         </div>
     </section>
   )

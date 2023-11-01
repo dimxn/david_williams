@@ -1,4 +1,5 @@
 import React from 'react'
+import "../../../../media.css"
 import "../Workflow/Workflow.css"
 
 export const Workflow = ({number, title, desc}) => {

@@ -1,4 +1,5 @@
 import React from 'react'
+import "../../media.css"
 import "../Footer/Footer.css"
 
 export const Footer = () => {

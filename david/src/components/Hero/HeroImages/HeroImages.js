@@ -1,4 +1,5 @@
 import React from 'react'
+import "../../../media.css"
 import "../HeroImages/HeroImages.css"
 import IMAGE1 from "../../../assets/Hero/image1.png"
 import IMAGE2 from "../../../assets/Hero/image2.png"

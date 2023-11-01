@@ -1,20 +1,22 @@
 import React from 'react'
+import "../../../media.css"
 import "../Fields/Fields.css"
 import { Buttons } from './Buttons/Buttons'
 import { Workflow } from './Workflow/Workflow'
 import DONE from "../../../assets/Services/done.svg"
 import { AnimationOnScroll } from 'react-animation-on-scroll';
+
 export const Fields = () => {
   return (
     <div className="services__fields">
         <div className="services__btns">
-            <AnimationOnScroll animateIn="animate__bounceInLeft" animateOnce={true}>
+            <AnimationOnScroll animateIn="animate__bounceInLeft" duration={1} animateOnce={true}>
                 <Buttons title="Parties" active='active' />
             </AnimationOnScroll>
-            <AnimationOnScroll animateIn="animate__bounceInLeft"  animateOnce={true}>
+            <AnimationOnScroll animateIn="animate__bounceInLeft" duration={2} animateOnce={true}>
                 <Buttons title="Weddings"/>
             </AnimationOnScroll>
-            <AnimationOnScroll animateIn="animate__bounceInLeft"  animateOnce={true}>
+            <AnimationOnScroll animateIn="animate__bounceInLeft" duration={3} animateOnce={true}>
                 <Buttons title="Business meetings"/>
             </AnimationOnScroll>
         </div>

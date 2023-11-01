@@ -1,0 +1,115 @@
+@media screen and (max-width: 1200px) {
+    .container {
+      max-width: 960px !important;
+    }
+    .images {
+        left: -125px !important;
+    }
+    .image1, .image2 {
+        width: 70% !important;
+        height: 70% !important;
+    }
+    .ellipse {
+        width: calc(550px / 1.5) !important;
+        height: calc(500px / 1.5) !important;
+    }
+    .ellipse__child {
+        width: calc(420px / 1.5) !important;
+        height: calc(400px / 1.5) !important;
+    }
+    .hero__title {
+        margin-top: 0 !important;
+    }
+    
+    .services__button {
+        width: 220px !important;
+    }
+}
+ 
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 720px !important;
+    }
+    .header__title {
+        margin-right: 0 !important;
+    }
+    .header__container {
+        justify-content: space-between !important;
+    }
+    .images {
+        left: -85px !important;
+        right: -100px !important;
+    }
+    .image1, .image2 {
+        width: calc(100% / 2.2) !important;
+        height: calc(100% / 2.2) !important;
+    }
+    .ellipse {
+        width: calc(550px / 2.2) !important;
+        height: calc(500px / 2.2) !important;
+    }
+    .ellipse__child {
+        width: calc(420px / 2.2) !important;
+        height: calc(400px / 2.2) !important;
+    }
+    .services__fields {
+        flex-direction: column !important;
+    }
+    .services__btns {
+        flex-direction: row !important;
+    }
+    .services__workflow {
+        margin-left: 0 !important;
+        margin-top: 70px !important;
+    }
+    .contacts__wrapper {
+        flex-direction: column !important;
+    }
+    .information {
+        flex-direction: row !important;
+    }
+    .bio {
+        width: auto !important;
+        padding: 70px 0;
+    }
+    .contacts__img {
+        height: 562px;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+    .contacts__img img {
+        width: 100%;
+    }
+}
+ 
+/* 0 - 576px */
+@media screen and (max-width: 576px) {
+    .container {
+        max-width: 90% !important;
+    }
+    .hero__container {
+        padding-top: 315px !important;
+        flex-direction: column-reverse !important;
+        gap: 30px !important;
+    }
+    .services__btns {
+        flex-direction: column !important;
+    }
+    .services__button {
+        width: 100% !important;
+    }
+    .stage__info {
+        width: 80%;
+    }
+    .information {
+        flex-direction: column !important;
+    }
+    .contacts__img {
+        height: 100%;
+    }
+    .stage__number::before {
+        height: 66px;
+    }
+}
+ 

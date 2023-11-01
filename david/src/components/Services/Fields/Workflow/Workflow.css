@@ -5,9 +5,10 @@
 
 .stage__info {
     border-radius: 5px;
-    padding-left: 5px;
+    padding: 5px;
     background: #F0F4F6;    
-    width: 736px;
+    display: flex;
+    flex-direction: column;
 }
 
 .stage__title {
@@ -35,8 +36,8 @@
     font-size: 24px;
     font-weight: 400;
     line-height: 143%; /* 34.32px */
-    width: 48px;
-    height: 48px;
+    width: 48px !important;
+    height: 48px !important;
     margin-right: 5px;
     position: relative;
 }
@@ -45,7 +46,7 @@
     content: "";
     position: absolute;
     width: 1px;
-    height: 41px;
+    height: 45px;
     background-color: #000;
     top: 100%;
 }

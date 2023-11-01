@@ -1,4 +1,5 @@
 import React from 'react';
+import "../../../media.css";
 import "../Bio/Bio.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 

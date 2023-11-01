@@ -1,4 +1,5 @@
 import React from 'react';
+import "../../../media.css";
 import "../Information/Information.css";
 import { InformationWrapper } from './InformationWrapper/InformationWrapper';
 import INSTAGRAM from "../../../assets/Contacts/instagram.svg"
@@ -9,11 +10,6 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 export const Information = () => {
   return (
     <div className="information">
-        <AnimationOnScroll animateIn='animate__bounceInLeft' delay={1} animateOnce={true}>
-          <h2 className="information__title">
-              Let`s make it
-          </h2>
-        </AnimationOnScroll>
         <AnimationOnScroll animateIn='animate__fadeInDown' delay={2} animateOnce={true}>
           <InformationWrapper title='Phone' type="tel: +1 354 958-23-51" text="+1 354 958-23-51"/>
         </AnimationOnScroll>

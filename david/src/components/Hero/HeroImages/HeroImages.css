@@ -35,7 +35,6 @@
     display: flex;
     left: -165px;
     position: absolute;
-    justify-content: space-between;
 }
 
 .image1 {

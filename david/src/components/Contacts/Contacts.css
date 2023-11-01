@@ -1,7 +1,14 @@
 .contacts__wrapper {
     display: flex;
     justify-content: space-between;
-    border-radius: 5px;
+}
+
+.contacts__wrapper1 {
     background: #F0F4F6;
     padding: 100px 70px;
+    border-radius: 5px;
+}
+
+.information__title {
+    padding-bottom: 70px;
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import "../../media.css"
 import "../Services/Services.css"
 import { Fields } from './Fields/Fields'
 

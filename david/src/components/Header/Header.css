@@ -1,9 +1,9 @@
 .header {
     padding-top: 30px;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
     background: rgba(255, 255, 255, 0.2);
-    border-radius: 16px;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -36,3 +36,71 @@
         opacity: 1;
     }
 }
+/* BurgerMenu.css */
+
+/* Styles for the burger menu container */
+.bm-burger-button {
+    position: fixed;
+    width: 24px;
+    height: 24px;
+    right: 36px;
+    bottom: 10px;
+  }
+  
+  /* Styles for the burger icon bars */
+  .bm-burger-bars {
+    background: #333;
+  }
+  
+  /* Styles for the menu items */
+  .bm-menu {
+    background: #fff;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+    height: 100vh !important;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
+  
+  /* Styles for menu item links */
+  .bm-menu a {
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Hover effect for menu item links */
+  
+  /* Styles for menu item close button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  /* Styles for the close icon */
+  .bm-cross {
+    background: #333;
+  }
+  
+  /* Styles for the overlay background */
+  .bm-menu-wrap {
+    position: fixed;
+    height: 100vh;
+    bottom: 0;
+  }
+  
+  .bm-item li {
+    list-style: none;
+  }
+
+  .bm-item-list {
+    height: 50vh !important;
+    display: flex;
+  }
+
+  .bm-item {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }

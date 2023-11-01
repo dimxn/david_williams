@@ -1,4 +1,5 @@
 import React from 'react'
+import "../../../media.css"
 import "../HeroText/HeroText.css"
 import LOCATION from "../../../assets/Hero/location.svg";
 
